@@ -259,33 +259,17 @@
         section.classList.add("animated");
       }
 
-      // function unAnimateSection(section) {
-      //   if (!isInViewport(section)) {
-      //     section.classList.remove("animated");
-      //   }
-      // }
-
       function animateOnScroll() {
         sections.forEach(function (section) {
           if (isInViewport(section)) {
             animateSection(section);
           }
-          // } else {
-          //   unAnimateSection(section);
-          // }
         });
       }
 
       function animateOnHover(event) {
         animateSection(event.target);
       }
-
-      // function unAnimateOnHover(event) {
-      //   const section = event.target;
-      //   if (!isInViewport(section)) {
-      //     section.classList.remove("animated");
-      //   }
-      // }
 
       animateOnScroll();
 
