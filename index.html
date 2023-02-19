@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="stylesheet.css" />
+
     <title>Aaliq Moin | Software Engineer</title>
     <style>
       .profile-section {
@@ -141,7 +142,7 @@
         <br />
       </section>
 
-      <section id="projects">
+      <section class="projects">
         <div class="container">
           <h2 class="text-center">Projects</h2>
           <div class="row">
@@ -229,7 +230,7 @@
           </form>
           <br />
           <p class="text-center">
-            Please note it might take me 2-3 days to respond to the
+            Please note that it might take me 2-3 days to respond to the
             communication requests received via this form. For urgent queries or
             messages, Please feel free to messsage me on my linkedin profile.
           </p>
@@ -239,5 +240,60 @@
     <footer>
       <p class="text-center">&copy; 2023 Aaliq Moin</p>
     </footer>
+    <script>
+      const sections = document.querySelectorAll("section");
+
+      function isInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      function animateSection(section) {
+        section.classList.add("animated");
+      }
+
+      // function unAnimateSection(section) {
+      //   if (!isInViewport(section)) {
+      //     section.classList.remove("animated");
+      //   }
+      // }
+
+      function animateOnScroll() {
+        sections.forEach(function (section) {
+          if (isInViewport(section)) {
+            animateSection(section);
+          }
+          // } else {
+          //   unAnimateSection(section);
+          // }
+        });
+      }
+
+      function animateOnHover(event) {
+        animateSection(event.target);
+      }
+
+      // function unAnimateOnHover(event) {
+      //   const section = event.target;
+      //   if (!isInViewport(section)) {
+      //     section.classList.remove("animated");
+      //   }
+      // }
+
+      animateOnScroll();
+
+      window.addEventListener("scroll", animateOnScroll);
+      sections.forEach(function (section) {
+        section.addEventListener("mouseover", animateOnHover);
+        section.addEventListener("mouseout", unAnimateOnHover);
+      });
+    </script>
   </body>
 </html>

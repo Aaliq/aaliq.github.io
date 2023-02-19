@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom, #2b2e4a, #1c1e3f);
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   height: 100vh;
 }
@@ -82,4 +82,29 @@ button.btn-primary:hover {
   background: #3da4ab;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
+}
+
+section {
+  opacity: 0;
+}
+
+section.projects {
+  opacity: 1;
+}
+
+section.animated {
+  opacity: 1;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
