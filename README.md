@@ -1,6 +1,6 @@
-# [My Resume Theme](https://startbootstrap.com/template-overviews/resume/)
+# [My Resume Portfolio Website]
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Aaliq Moin](https://aaliq.me/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume. This is My version of the resume portfolio with changes that reflect my profile.
 
 ## Preview
 
@@ -10,9 +10,6 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Aaliq/aaliq.github.io/master/LICENSE) <!-- Replace with your GitHub repository URL -->
 [![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![Build Status](https://travis-ci.org/Aaliq/aaliq.github.io.svg?branch=master)](https://travis-ci.org/Aaliq/aaliq.github.io) <!-- Replace with your GitHub repository URL -->
-[![dependencies Status](https://david-dm.org/Aaliq/aaliq.github.io/status.svg)](https://david-dm.org/Aaliq/aaliq.github.io)
-[![devDependencies Status](https://david-dm.org/Aaliq/aaliq.github.io/dev-status.svg)](https://david-dm.org/Aaliq/aaliq.github.io?type=dev) <!-- Replace with your GitHub repository URL -->
 
 ## Download and Installation
 
