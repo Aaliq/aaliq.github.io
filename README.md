@@ -4,8 +4,6 @@
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://aaliq.me/) <!-- Replace with your live preview link -->
-
 **[View Live Preview](https://aaliq.me/)**
 
 ## Status
