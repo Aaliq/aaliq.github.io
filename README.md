@@ -1,4 +1,4 @@
-# [My Resume Portfolio Website]
+# My Resume Portfolio Website
 
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume. This is My version of the resume portfolio with changes that reflect my profile.
 
